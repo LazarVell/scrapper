@@ -1,4 +1,4 @@
-# scrapper
+# Scrapper
 A web scrapper made by using puppeteer with node.js
 
 <h2><b>Objective</b></h2> - I was tasked with creating a scrapper that can save the entire web page in an easy-to-use format.
