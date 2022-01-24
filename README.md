@@ -1,13 +1,16 @@
 # scrapper
 A web scrapper made by using puppeteer with node.js
 
-A very daunting project, not because of complexity, but because I had a deadline of 1 day to complete it and have a working solution for a friend that asked me to make it. I had to get familiar with new technologies and produce a working solution within this timeframe.
+<h2><b>Objective</b></h2> - I was tasked with creating a scrapper that can save the entire web page in an easy-to-use format.
 
-It can save a full page screenshot of any webpage you wish to save to your local storage, storing under a unique name.
+<h2><b>How I did it</b></h2> - Through my research I discovered a tool that did exactly what I needed it to do - Googles Puppeteer, which is a node.js library. After learning how to use npm to start a node server, and setting up Puppeteer, it took some trial and error to get the script to do exactly what I wanted it to do. It waves the web page as png upon running the script, in a format with a unique name. I was also able to target a specific DOM node, however this has unintended side effects if used on large web pages. The full explanation of my work process and how to use the scrapper can be seen in the comments within the app.js.
 
-It also has a commented-out part which can be used to target a specific DOM node to only screenshot that part of the page.
-  However, there is a hard-coded limit on Chromium webpage height, which can be by-passed by opting for a full page screenshot.
-  
+<h2><b>Greatest challenge</b></h2> - The greatest challenge by far was that this project had a very short deadline - only 1 day. A working solution was required by the end of next day. It was an incredible feat for myself, and a relief, that I was able to learn enough to use a completely unknown tool and produce a working solution in such a short time.
+
+<h2><b>What I learned</b></h2> - Knowing how to phrase my questions when searching Google gave me the solution in a short time. Also, when encountering buggs, having well phrased questions helped me figure out the problem quickly - and it was a problem that was completely unrelated to my code, but was a hard-coded browser issue.
+
+
+<h2><b>How to use</b></h2>
 In order to use the scrapper, a node server needs to be started. It is assumed you have node installed.
 
   You can either use the terminal directly from your IDE if that is an option (ctrl-shift-` will open the terminal for VSCode), or start the terminal/powershell from inside the directory which has the scrapper in it.
